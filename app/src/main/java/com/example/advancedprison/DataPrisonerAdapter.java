@@ -48,7 +48,7 @@ public class DataPrisonerAdapter extends ArrayAdapter<Prisoner> {
         nameView.setText("Name:");
         ageView.setText("Age:");
         nameOutputView.setText(prisoner.getName());
-        ageOutputView.setText(prisoner.getAge());
+        ageOutputView.setText(prisoner.getAge() + "");
         imageView.setImageResource(R.drawable.puton);
 
         return convertView;
